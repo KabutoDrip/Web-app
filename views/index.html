@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Howdy</title>
+    <style>
+        .prompt {
+            font-size: 16px;
+            color: brown;
+            font-weight: bold;
+        }
+        .container {
+            width: 50%;
+        }
+        .left-pane {
+            width: 50%;
+            float: left;
+        }
+        .right-pane {
+            width: 50%;
+            float: right;
+        }
+        .submit-name {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+<h1>Login</h1>
+
+<form method='GET' action="/getaccount">
+    <div class="container">
+        <div class="prompt left-pane">
+            <p>Username</p>
+            <p>Password</p>
+        </div>
+        <div class="right-pane">
+            <input type="text" id="username" name="username" />
+            <input type="password" id="password" name="password">
+        </div>
+    </div>
+    <div class="submit-name">
+        <input type="submit" value="get the email" />
+    </div>
+    </div>
+</form>
+</body>
+</html>
